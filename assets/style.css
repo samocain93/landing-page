@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -9,13 +12,11 @@ header {
     top: 0;
     padding: 10px;
     margin: auto;
+    padding: 10px;
+    overflow: hidden;
 }
 header a {
     color: white;
-}
-.heading-one {
-    padding 10px;
-    margin-top: 20px;
 }
 a {
     text-decoration: none;
@@ -27,7 +28,10 @@ a:visited {
 h1 {
     font-size: 50px;
     margin: auto;
+    z-index: 1;
+    padding: 10px;
 }
+
 h2 {
     font-size: 40px;
     margin: auto;
