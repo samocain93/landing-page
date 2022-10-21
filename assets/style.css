@@ -10,31 +10,52 @@ header {
     padding: 10px;
     margin: auto;
 }
+header a {
+    color: white;
+}
 .heading-one {
     padding 10px;
     margin-top: 20px;
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
 
 h1 {
     font-size: 50px;
+    margin: auto;
 }
 h2 {
     font-size: 40px;
+    margin: auto;
 }
 h3 {
     font-size: 28px;
+    margin: auto;
 }
 p {
     font-size: 16px;
 }
 footer {
-    background-color: black;
+    background-color: #34768a;
     width: 100%;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     overflow: hidden;
-    height: auto;
+    height: 60px;
+    margin-top: auto;
 }
 footer p {
+    color: white;
+    position: inherit;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+footer a {
     color: white;
 }
