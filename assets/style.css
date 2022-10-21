@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    align-items: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color:aquamarine;
+}
